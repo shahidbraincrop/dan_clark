@@ -63,8 +63,9 @@ services:
       - 9200:9200
   atlas:
     image: sburn/apache-atlas
+    container_name: ranger-atlas
     ports:
-      - "2100:21000"
+      - "21000:21000"
 
 volumes:
   db_data:
