@@ -8,7 +8,7 @@ docker-compose up -d --build
 cd ../hadoop
 docker-compose up -d --build
 
-cd ../ranger/atlas
+cd ../atlas
 docker-compose up -d
 ```
 
